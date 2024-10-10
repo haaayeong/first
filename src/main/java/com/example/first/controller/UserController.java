@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.example.first.domain.UserInfo;
 import com.example.first.service.UserService;
@@ -25,6 +26,15 @@ public class UserController {
 		userService.insertUser(user);
 		
 		return "redirect:/";
+	}
+	
+	@GetMapping("/user/idcheck")
+	@ResponseBody
+	public int idcheck(String username) {
+		
+		int result = userService.idCheck(username);
+		
+		return result;
 	}
 
 }

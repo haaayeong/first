@@ -15,5 +15,16 @@ public class UserService {
 	public void insertUser(UserInfo user) {
 		userRepository.save(user);
 	}
+	
+	public int idCheck(String username) {
+		
+		UserInfo user = userRepository.findByUsername(username);
+		
+		if(user == null) {
+			return 0;
+		} else {
+			return 1;
+		}
+	}
 
 }
