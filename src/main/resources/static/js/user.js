@@ -17,3 +17,16 @@ $('#icb').on('click', (e) => {
 		console.log(error);
 	})
 })
+
+$(".form-control").on("keyup", () => {
+	const username = $("#username").val();
+	const password = $("#password").val();
+	const nickname = $("#nickname").val();
+	const email = $("#email").val();
+	
+	if(username && password & nickname && email) {
+		$("#btn-insert").attr("disabled", false);
+	} else {
+		$("#btn-insert").attr("disabled", true);
+	}
+})

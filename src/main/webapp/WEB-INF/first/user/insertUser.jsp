@@ -21,7 +21,7 @@
 			<label for="email" class="form-label">이메일 : </label>
 			<input type="email" class="form-control" id="email" placeholder="이메일을 입력하세요" name="email">
 		</div>
-		<input type="submit" disabled id="btn-insert" value="회원가입"> <!-- 얘가 submit여야 정보를 보내줄 수 있음. -->
+		<input type="submit" id="btn-insert" value="회원가입" disabled> <!-- 얘가 submit여야 정보를 보내줄 수 있음. -->
 	</form>
 </div>
 
