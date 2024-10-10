@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.main1 {
+	height: 800px;
+	background-color: #9f9faa;
+}
+
+
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	display: inline-block;
+}

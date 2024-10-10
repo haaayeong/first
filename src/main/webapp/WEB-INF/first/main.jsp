@@ -2,6 +2,13 @@
     pageEncoding="UTF-8"%>
 <%@ include file="./layout/header.jsp" %>
 
-<h1> 메인 페이지 작업중 </h1>
+<main>
+	<div class="main1">
+	</div>
+	<div class="main2">
+	</div>
+	<div class="main3">
+	</div>
+</main>
 
 <%@ include file="./layout/footer.jsp" %>
