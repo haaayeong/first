@@ -23,7 +23,7 @@
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 	      <div class="navbar-nav">
-	        <a class="nav-link" href="#">로그인</a>
+	        <a class="nav-link" href="/login">로그인</a>
 	        <a class="nav-link" href="/user">회원가입</a>
 	        <a class="nav-link" href="#">게시판</a>
 	        <a class="nav-link" href="#">회원정보</a>
